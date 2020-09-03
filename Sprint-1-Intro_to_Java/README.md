@@ -20,7 +20,7 @@ At the end of the sprint, you'll have four things to complete:
 3. A short individual reflective write-up.
 4. Reading from the ZyBook.
 
-The content for this sprint is not particularly difficult, although you will need to get started with JavA, which may be new for you. As you're working,
+The content for this sprint will primarily be review from your previous class, although you will need to get started with Java, which may be new for you. As you're working,
 focus on getting into the rhythm of Scrumage and developing good working habits with your teams that will carry you through the more content-heavy sprints that are coming up.
 
 ## Deliverables and Quiz
