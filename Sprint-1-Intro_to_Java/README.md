@@ -3,6 +3,8 @@
 ## Starts Monday 9/14
 ## Deliverables and quiz are due on Wednesday 9/30
 
+<img src="https://upload.wikimedia.org/wikipedia/en/0/02/Queen_Greatest_Hits.png" width="50%" />
+
 ## Overview and Goals
 
 This is it: the first sprint. We're going to do three things:
