@@ -89,8 +89,12 @@ Suppose you would like to calculate the Nth Fibonacci number. How could you do t
 
 One way is to start at the base case and grind your way up through the sequence until you've calculated N total terms. This would be easy to do with a loop, but we haven't talked about those yet.
 
-It turns out there is a single formula that will calculate the terms of the Fibonacci sequence. This is weird and suprising, because it seems unlikely that such a highly structured sequence, where each term depends on all the previous terms, could be represented in closed form.
-
-The result is know as Binet's formula and it says that the Nth Fibonacci number *f*<sub>*n*</sub> is
+It turns out there is a **single formula** that will calculate the terms of the Fibonacci sequence. This is weird and suprising, because it seems unlikely that such a highly structured sequence, where each term depends on all the previous terms, could be represented in closed form. The result is know as **Binet's formula** and it says that the Nth Fibonacci number *f*<sub>*n*</sub> is
 
 <img src="https://latex.artofproblemsolving.com/8/6/d/86d486c560727727342090b432e23ba85ac098b1.png" width="30%"/>
+
+Gnarly.
+
+The number `(1 + sqrt(5)) / 2` is the famous **golden ratio**, the most aesthetically pleasing of all proportions. It's sometimes denoted by the Greek letter φ (phi) after the ancient architect and sculptor Phidias, who used it in planning the design of the Parthenon.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/da/The_Parthenon_in_Athens.jpg" width="50%" />
