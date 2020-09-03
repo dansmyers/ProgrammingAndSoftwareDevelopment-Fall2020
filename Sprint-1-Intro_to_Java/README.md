@@ -85,11 +85,11 @@ You've heard of the famous Fibonacci sequence, where each term is caclulated by 
 
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
 
-Suppose you would like to calculate the Nth Fibonacci number. How could you do that?
+Suppose you would like to calculate the *n*<sup>th</sup> Fibonacci number. How could you do that?
 
-One way is to start at the base case and grind your way up through the sequence until you've calculated N total terms.
+One way is to start at the base case and grind your way up through the sequence until you've calculated *n* total terms.
 
-It turns out, though, that there is a **single formula** that will calculate the terms of the Fibonacci sequence. This is weird and suprising, because it seems unlikely that such a highly structured sequence, where each term depends on all the previous terms, could be represented in closed form. The result is know as **Binet's formula** and it says that the Nth Fibonacci number *f*<sub>*n*</sub> is
+It turns out, though, that there is a **single formula** that will calculate the terms of the Fibonacci sequence. This is weird and suprising, because it seems unlikely that such a highly structured sequence, where each term depends on all the previous terms, could be represented in closed form. The result is know as **Binet's formula**, and it says that the Nth Fibonacci number *f*<sub>*n*</sub> is
 
 <img src="https://latex.artofproblemsolving.com/8/6/d/86d486c560727727342090b432e23ba85ac098b1.png" width="30%"/>
 
