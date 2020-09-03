@@ -98,3 +98,15 @@ Gnarly.
 The number `(1 + sqrt(5)) / 2` is the famous **golden ratio**, the most aesthetically pleasing of all proportions. It's sometimes denoted by the Greek letter φ (phi) after the ancient architect and sculptor Phidias, who used it in planning the design of the Parthenon.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/The_Parthenon_in_Athens.jpg" width="50%" />
+
+Write a Java program called `Binet.class` that prompts the user for a value of *n* and then uses Binet's formula to calcuate the *n*<sup>th</sup> Fibonacci number.
+
+Tips:
+
+- Again, use a `Scanner` to read from `System.in`. Use the `nextInt` method to read an `int` value from the console.
+
+- Use `Math.sqrt()` to calculate square roots. For example,
+
+```
+double phi = (1 + Math.sqrt(5)) / 2;
+```
