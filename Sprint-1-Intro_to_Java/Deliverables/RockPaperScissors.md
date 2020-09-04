@@ -24,7 +24,6 @@ Welcome to Rock, Paper, Scissors.
 3. Scissors
 Select your move:
 1
-You've chosen Rock.
 I choose Scissors.
 Rock crushes Scissors!
 My failure...does not compute...
@@ -32,36 +31,37 @@ My failure...does not compute...
 
 ## Skeleton
 
-Use the code below as a starting point. Each of the sections below will ask you to add a new part to the skeleton program.
+Use the code below as a starting point. Each of the sections below will ask you to add a new part to the skeleton program. Put each 
 
 ```
-// Rock, paper, scissors
-// CMS 167
-
-// Play a single round of human vs. computer
-
+/** 
+* Rock, paper, scissors
+* Plays a single round of human vs. computer
+*
+* CMS 121
+*/
 
 public class RockPaperScissors {
 
-  public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    // Declare final variables representing the three moves
+        // 1. Declare final variables representing the three moves
     
-    // Create a new Scanner
+        // 2. Create a new Scanner
     
-    // Print the welcome message and list the three moves
+        // 3. Print the welcome message and list the three moves
     
-    // Read the user's move
+        // 4. Read the user's move
     
-    // If the move is not 1, 2, or 3, exit the program with return
+        // 5. If the move is not 1, 2, or 3, exit the program with return
+            
+        // 6. Randomly generate the CPU's move
     
-    // Randomly generate the CPU's move
+        // 7. Print the CPU's move
     
-    // Print the CPU's move
-    
-    // Determine the outcome and print an appropriate message
+        // Determine the outcome and print an appropriate message
 
-  }
+    }
   
 }
 ```
@@ -104,7 +104,7 @@ int playerMove = input.nextInt();
 The only legal moves are 1, 2 or 3. Add some code to check if the user enters a value outside that range, and if so exit the program.
 
 ```
-if (playerMove strictly less than 1 OR playerMove strictly greater than 3) {
+if (playerMove < 1 || playerMove > 3) {
     System.out.println("That's not a valid move, meatbag.");
     return;
 }
@@ -112,18 +112,6 @@ if (playerMove strictly less than 1 OR playerMove strictly greater than 3) {
 
 Remember that the `return` statement automatically ends the `main` method, which is the same as exiting the program.
 
-
-# Step 6: Print the Player's Move
-
-Add `if` statements that test the player's input and print the associated move.
-
-```
-if (playerMove == ROCK) {
-  System.out.println("You've chosen Rock.");
-}
-```
-
-Add two more cases for `PAPER` and `SCISSORS`.
 
 ## Step 6: Randomly Generate the CPU's Move
 
@@ -156,7 +144,7 @@ if (playerMove == cpuMove) {
 Add more statements to test for the other possible combinations.
 
 ```
-if (playerMove is ROCK AND cpuMove is PAPER) {
+if (playerMove == ROCK && cpuMove == PAPER) {
   System.out.println("Paper covers Rock!");
   System.out.println("Humans...so soft...so weak.");
 }
