@@ -1,5 +1,5 @@
 // Convert an input number of inches to cm
-// CMS 167
+// CMS 121
 
 import java.util.Scanner;
 
