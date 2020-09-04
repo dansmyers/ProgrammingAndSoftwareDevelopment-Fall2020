@@ -1,24 +1,27 @@
 // Read from the terminal and echo the input back
-// CMS 167
+// CMS 121
 
 // Use an import statement to add classes to your program
-// Some classes, like System and Math, are automatically available
+// System and Math are automatically available
+// Others, like Scanner, have to be added manually
 
 import java.util.Scanner;
 
 public class Echo {
 
-  public static void main(String[] args) {
+    public static void main(String[] args) {
   
-    // Create a new Scanner
-    Scanner input = new Scanner(System.in);
+        // Create a new Scanner to read from the console
+        // new is the memory allocation keyword -- tells Java to allocate a new object
+        // System.in is the standard console input
+        Scanner input = new Scanner(System.in);
     
-    // Use the Scanner's nextLine method to read from the terminal
-    // Notice that String is capitalized because it's an object
-    String line = input.nextLine();
+        // nextLine reads one line of input and returns it as a String
+        // Notice: String is capitalized because it's an object, not a primitive type
+        String line = input.nextLine();
     
-    // Echo the String back
-    System.out.println(line);
-  }
+        // Echo the String back
+        System.out.println(line);
+    }
 
 }

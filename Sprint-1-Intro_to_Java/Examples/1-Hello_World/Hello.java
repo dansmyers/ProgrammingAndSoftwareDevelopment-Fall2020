@@ -9,22 +9,24 @@
 
 public class Hello {
 
-  // Indent the body of the class to show its structure.
-  // I recommend using two spaces of indentation for each pair of curly braces.
+    // Indent the body of the class to show its structure.
+    // I recommend using four spaces of indentation for each pair of curly braces.
   
-  // Every program has a method named main.
-  // main is the "entry point" for the program.
-  // When your class runs, Java executes the statements within main in the order they appear.
+    // Every program has a method named main.
+    // main is the "entry point" for the program.
+    // When your class runs, Java executes the statements within main in the order they appear.
   
-  public static void main(String[] args) {
+    public static void main(String[] args) {
     
-    // Again, indent two spaces within main to show the structure of the code
+        // Again, indent four spaces within main to show the structure of the code
     
-    // Use System.out.println to write to the screen
-    // Text strings are enclosed in double quotes
-    // Every Java statement ends with a semicolon
+        // The basic Java print method is System.out.println()
+      
+        // Text strings are enclosed in double quotes
+      
+        // Every Java statement ends with a semicolon
    
-    System.out.println("Hello, World!");
-  }
+        System.out.println("Hello, World!");
+    }
 
 }
