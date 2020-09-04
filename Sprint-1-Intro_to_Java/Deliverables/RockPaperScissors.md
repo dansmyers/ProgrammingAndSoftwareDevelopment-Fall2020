@@ -1,5 +1,8 @@
 # Rock, Paper, Scissors
 
+
+<img src="https://static.vecteezy.com/system/resources/previews/000/693/105/original/cartoon-rock-paper-scissors-vector-characters.jpg" width="50%" />
+
 ## Overview
 
 This document will lead you guide you through the implementation of an RPS game. This program will tie together pretty much everything that we've done so far in the class:
