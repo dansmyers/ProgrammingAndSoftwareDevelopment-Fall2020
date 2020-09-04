@@ -136,7 +136,7 @@ double phi = (1 + Math.sqrt(5)) / 2;
 
 ### Magic 8-Ball
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Magic8ball.jpg" width="50%" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Magic8ball.jpg" width="30%" />
 
 Finish the Magic 8-Ball program given in the `Magic.java` example. The program should prompt the user for a question, then return one of the following answers selected
 at random:
