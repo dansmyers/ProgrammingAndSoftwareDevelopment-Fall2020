@@ -2,12 +2,14 @@
 // Demonstrates calculations, printing results, and Math
 
 // Math.PI is the built-in constant that is the closest value to true pi
-// Math.pow(a, b) calculates a raised to the power b
 
 public class CircleArea {
 
-  public static void main(String[] args) {
-    System.out.println("Area of a circle with radius 5.0 = " + Math.PI * Math.pow(5.0, 2));
-  }
+    public static void main(String[] args) {
+    
+        // The + operator performs concatenation
+    
+        System.out.println("Area of a circle with radius 5.0 = " + Math.PI * 5.0 * 5.0);
+    }
   
 }
