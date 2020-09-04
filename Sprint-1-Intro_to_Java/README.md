@@ -68,7 +68,7 @@ that I've given you that point out features of each program. Complete the ZyBook
 - **Week 2**: Work through the third set of examples on user input and the `Scanner`. Pay carefuly attention to the `InchesToCentimeters` example, which is a basic template for
 writing unit conversion programs with user input. After doing that, you should be able to complete the first three deliverable problems. Start working on Chapter 3 in the ZyBook.
 
-- **Week 3**: Finish the last two deliverable problems. The `MagicEightBall` problem should be easy, since you only need to adjust the template. The RPS problem is more involved, but gives you step-by-step instructions. Finish Chapter 3 of the ZyBook.
+- **Week 3**: Finish the last two deliverable problems. The RPS problem is the more involved of the two, but gives you step-by-step instructions. Finish Chapter 3 of the ZyBook.
 
 As you're working, remember:
 
