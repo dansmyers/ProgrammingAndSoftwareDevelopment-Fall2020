@@ -148,7 +148,7 @@ Add more statements to test for the other possible combinations.
 
 ```
 if (playerMove == ROCK && cpuMove == PAPER) {
-  System.out.println("Paper covers Rock!");
-  System.out.println("Humans...so soft...so weak.");
+    System.out.println("Paper covers Rock!");
+    System.out.println("Humans...so soft...so weak.");
 }
 ```
