@@ -36,9 +36,10 @@ and ask me if you have questions about what is an acceptable resource!
 
 Complete the **participation questions** for Chapters 2 and 3 of the ZyBook. You don't need to complete the challenge questions or any sections that are marked as optional.
 
-## Deliverable Questions
+## Deliverable Programs
 
-Write Java programs for each of the following. Create a separate `.class` file for each question and put your code in the `main` method of the class. Put all of your class files into one ZIP archive and submit the ZIP file through the assignment on Canvas.
+Write Java programs for each of the following. Create a separate `.java` file for each question and put your code in the `main` method of the class. Put all of your Java files into one ZIP archive and submit the ZIP file through the assignment on Canvas.
+
 
 ### Unit of Measure
 
@@ -69,7 +70,7 @@ public class Scottometers {
 
 Tips:
 
-- Put your code in a file named `Scottometers.class`. Remember that capitalization is important for class and file names.
+- Put your code in a file named `Scottometers.java`. Remember that capitalization is important for class and file names.
 
 - Use `double` variables to store the numbers of miles and Scottometers.
 
@@ -77,13 +78,29 @@ Tips:
 
 - Look at the `Smoots.java` example.
 
+
+### Fake Internet Meme Money
+
+Dogecoin, the favored cryptocurrency of shiba inus everywhere, currently trades for about $.003 per DOGE.
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNWsmvYusY2dEVGxw0fuXeKpFHBilq2UeLWQ&usqp=CAU" width="50%" />
+
+Write a program that can take a value in dollars as input and output the equivalent number of dogecoins. Print your answers to two decimal places.
+
+Tips:
+
+- Use a `Scanner` and the `nextDouble` method to read from the console.
+
+- To print to two decimal places, use `System.out.printf("%.2d", dogecoins)`, where `dogecoins` is the variable that holds the number of dogecoins you want to print.
+
+
 ### Binet's Formula
 
-This is one of my favorites.
+You've heard of the famous Fibonacci sequence, where each term is calculated by adding the two previous terms:
 
-You've heard of the famous Fibonacci sequence, where each term is caclulated by adding the two previous terms:
-
+```
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+```
 
 Suppose you would like to calculate the *n*<sup>th</sup> Fibonacci number. How could you do that?
 
