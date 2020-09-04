@@ -32,6 +32,6 @@ public class Smoots {
     
         System.out.printf("The Burj Khalifa is %.2f Smoots tall.", heightInSmoots);
     
-  }
+    }
 
 }
