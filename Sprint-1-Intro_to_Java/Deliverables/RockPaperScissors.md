@@ -123,7 +123,7 @@ Add`if` statements to print a message for each possible computer move.
 
 ```
 if (cpuMove == ROCK) {
-  System.out.println("I choose Rock.");
+    System.out.println("I choose Rock.");
 }
 ```
 
@@ -137,7 +137,7 @@ One case is easy: if the moves are the same, it's a draw.
 
 ```
 if (playerMove == cpuMove) {
-  System.out.println("Draw! I'll get you next time, human.");
+    System.out.println("Draw! I'll get you next time, human.");
 }
 ```
 
