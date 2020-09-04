@@ -40,15 +40,23 @@ At the end of this sprint, you should be comfortable with the following Java fea
 
 - Creating a `.java` file that contains a `public class` and a `main` method.
 
-- The eight primitive types: `int`, `short`, `long`, `byte`, `char`, `float`, `double`, and `boolean`.
+- The eight primitive types: `int`, `short`, `long`, `byte`, `char`, `float`, `double`, and `boolean`. Know what kind of data each type represents.
+
+- Declaring variables, assigning values, and performing arithmetic.
 
 - Using `Scanner` to read from the standard console input, including the `next`, `nextInt`, and `nextDouble` methods.
 
 - Writing programs that read input and use it to perform calculations.
 
+- Formatted printing using `System.out.printf`
+
+- The six relational operators: `<`, `>`, `<=`, `>=`, `==`, `!=`
+
 - Writing conditionals using `if`, `else`, and `switch` statements.
 
-- Making random choices using `Math.random()`.
+- The logical operators: `&&` (logical AND), `||` (logical OR), `!` (logical NOT)
+
+- Using `Math.random()` to make random choices.
 
 ## Schedule and Tips
 
