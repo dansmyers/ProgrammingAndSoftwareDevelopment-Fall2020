@@ -93,6 +93,12 @@ Tips:
 
 - To print to two decimal places, use `System.out.printf("%.2d", dogecoins)`, where `dogecoins` is the variable that holds the number of dogecoins you want to print.
 
+- Use a `final double` to store the conversion factor:
+
+```
+final double USD_PER_DOGE = .003;
+```
+
 
 ### Binet's Formula
 
