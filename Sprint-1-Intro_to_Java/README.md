@@ -36,6 +36,23 @@ and ask me if you have questions about what is an acceptable resource!
 
 Complete the **participation questions** for Chapters 2 and 3 of the ZyBook. You don't need to complete the challenge questions or any sections that are marked as optional.
 
+## Java Features
+
+At the end of this sprint, you should be comfortable with the following Java features:
+
+- Creating a `.java` file that contains a `public class` and a `main` method.
+
+- The eight primitive types: `int`, `short`, `long`, `byte`, `char`, `float`, `double`, and `boolean`.
+
+- Using `Scanner` to read from the standard console input, including the `next`, `nextInt`, and `nextDouble` methods.
+
+- Writing programs that read input and use it to perform calculations.
+
+- Writing conditionals using `if`, `else`, and `switch` statements.
+
+- Making random choices using `Math.random()`.
+
+
 ## Deliverable Programs
 
 Write Java programs for each of the following. Create a separate `.java` file for each question and put your code in the `main` method of the class. Put all of your Java files into one ZIP archive and submit the ZIP file through the assignment on Canvas.
@@ -138,7 +155,7 @@ double phi = (1 + Math.sqrt(5)) / 2;
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Magic8ball.jpg" width="30%" />
 
-Finish the Magic 8-Ball program given in the `Magic.java` example. The program should prompt the user for a question, then return one of the following answers selected
+Finish the Magic 8-Ball program given in the `Magic.md` example. The program should prompt the user for a question, then return one of the following answers selected
 at random:
 
 - It is certain.
