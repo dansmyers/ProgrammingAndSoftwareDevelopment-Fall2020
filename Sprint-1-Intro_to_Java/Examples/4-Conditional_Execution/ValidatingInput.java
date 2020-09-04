@@ -1,5 +1,5 @@
 // Validating user input 
-// CMS 167
+// CMS 121
 
 import java.util.Scanner;
 
