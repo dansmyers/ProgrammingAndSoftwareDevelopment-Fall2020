@@ -133,3 +133,31 @@ Tips:
 ```
 double phi = (1 + Math.sqrt(5)) / 2;
 ```
+
+### Magic 8-Ball
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Magic8ball.jpg" width="50%" />
+
+Finish the Magic 8-Ball program given in the `Magic.java` example. The program should prompt the user for a question, then return one of the following answers selected
+at random:
+
+- It is certain.
+- It is decidedly so.
+- Without a doubt.
+- Yes – definitely.
+- You may rely on it.
+- As I see it, yes.
+- Most likely.
+- Outlook good.
+- Yes.
+- Signs point to yes.
+- Reply hazy, try again.
+- Ask again later.
+- Better not tell you now.
+- Cannot predict now.
+- Concentrate and ask again.
+- Don't count on it.
+- My reply is no.
+- My sources say no.
+- Outlook not so good.
+- Very doubtful.
