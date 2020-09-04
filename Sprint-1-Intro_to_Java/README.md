@@ -1,4 +1,4 @@
-# Sprint 1 &ndash; Greatest Hits
+# Sprint 1 &ndash; Intro to Java
 
 ## Starts Monday 9/14
 ## Deliverables and quiz are due on Wednesday 9/30
