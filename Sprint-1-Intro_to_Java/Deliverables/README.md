@@ -4,7 +4,7 @@
 Write Java programs for each of the following. Create a separate `.java` file for each question and put your code in the `main` method of the class. Put all of your Java files into one ZIP archive and submit the ZIP file through the assignment on Canvas.
 
 
-### Unit of Measure
+## Unit of Measure
 
 My son Scott has created a new unit of length called the **Scottometer**. The purpose of the Scottometer is, in his words, "to measure the size of the solar system". Confusingly, 1 Scottometer is defined to be 1 million miles.
 
@@ -42,7 +42,7 @@ Tips:
 - Look at the `InchesToCentimeters.java` example.
 
 
-### Fake Internet Meme Money
+## Fake Internet Meme Money
 
 Dogecoin, the favored cryptocurrency of shiba inus everywhere, currently trades for about $.003 per DOGE.
 
@@ -63,7 +63,7 @@ final double USD_PER_DOGE = .003;
 ```
 
 
-### Binet's Formula
+## Binet's Formula
 
 You've heard of the famous Fibonacci sequence, where each term is calculated by adding the two previous terms:
 
@@ -98,7 +98,7 @@ double phi = (1 + Math.sqrt(5)) / 2;
 ```
 
 
-### Magic 8-Ball
+## Magic 8-Ball
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Magic8ball.jpg" width="30%" />
 
@@ -120,7 +120,7 @@ at random:
 - Better not tell you now.
 - Cannot predict now.
 
-### RPS
+## RPS
 
 Follow the instructions in `RockPaperScissors.md` to implement a Rock-Paper-Scissors game. Put your program in a file named `RockPaperScissors.java`.
 - Concentrate and ask again.
