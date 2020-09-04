@@ -1,4 +1,4 @@
-// Validating user input 
+// Snow cone truck -- validating user input 
 // CMS 121
 
 import java.util.Scanner;
