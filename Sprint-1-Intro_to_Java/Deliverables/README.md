@@ -85,7 +85,7 @@ The number `(1 + sqrt(5)) / 2` is the famous **golden ratio**, the most aestheti
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/The_Parthenon_in_Athens.jpg" width="50%" />
 
-Write a Java program called `Binet.class` that prompts the user for a value of *n* and then uses Binet's formula to calcuate the *n*<sup>th</sup> Fibonacci number.
+Write a Java program called `Binet.java` that prompts the user for a value of *n* and then uses Binet's formula to calcuate the *n*<sup>th</sup> Fibonacci number.
 
 Tips:
 
@@ -119,13 +119,13 @@ at random:
 - Ask again later.
 - Better not tell you now.
 - Cannot predict now.
-
-## RPS
-
-Follow the instructions in `RockPaperScissors.md` to implement a Rock-Paper-Scissors game. Put your program in a file named `RockPaperScissors.java`.
 - Concentrate and ask again.
 - Don't count on it.
 - My reply is no.
 - My sources say no.
 - Outlook not so good.
 - Very doubtful.
+
+## RPS
+
+Follow the instructions in `RockPaperScissors.md` to implement a Rock-Paper-Scissors game. Put your program in a file named `RockPaperScissors.java`.
