@@ -89,7 +89,7 @@ Now you can use the name `ROCK` in your program instead of always remembering "1
 
 ## Step 2: Scanner
 
-Add the line `import java.util.Scanner;` to the top of your program, then add a line to declare a `new Scanner` that reads from `System.in`.
+Add the line `import java.util.Scanner;` to the top of your program, then add a line to create a `new Scanner` that reads from `System.in`.
 
 ## Step 3: Print the Welcome Message and List the Three Moves
 
@@ -108,6 +108,7 @@ int playerMove = input.nextInt();
 The only legal moves are 1, 2 or 3. Add some code to check if the user enters a value outside that range, and if so exit the program.
 
 ```
+// Use || for logical OR
 if (playerMove < 1 || playerMove > 3) {
     System.out.println("That's not a valid move, meatbag.");
     return;
@@ -148,6 +149,7 @@ if (playerMove == cpuMove) {
 Add more statements to test for the other possible combinations.
 
 ```
+// Use && for logical AND
 if (playerMove == ROCK && cpuMove == PAPER) {
     System.out.println("Paper covers Rock!");
     System.out.println("Humans...so soft...so weak.");
