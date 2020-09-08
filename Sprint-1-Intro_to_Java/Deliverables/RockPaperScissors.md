@@ -34,7 +34,8 @@ My failure...does not compute...
 
 ## Skeleton
 
-Use the code below as a starting point. Each of the sections below will ask you to add a new part to the skeleton program. Put each 
+Use the code below as a starting point. Each of the sections below will ask you to add a new part to the skeleton program. Put the new code for each section **under** its
+associated comment in the program.
 
 ```
 /** 
