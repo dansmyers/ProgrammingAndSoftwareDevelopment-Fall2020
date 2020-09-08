@@ -23,7 +23,7 @@ if you have questions that are too in-depth to handle over Slack.
 
 I will plan to be generally available for WebEx appointments on
 
-- Mondays, Wednesdays, and Fridays from 1:30 to 3:00
+- Mondays, Wednesdays, and Fridays from 2:30 to 3:30
 - Tuesdays and Thursdays from 10:00 to 12:00
 
 ## Official Course Description
