@@ -17,3 +17,29 @@ which has an underlying representation in the computer's memory.
 | `float` | 32-bit floating point number |  About 7 digits of precision after the decimal point | Rarely used unless you need to minimize memory usage |
 | `char` | A single character |     | Working with individual characters that are part of a `String` |
 | `boolean` | Logical true or false | `true` or `false` | Tests results, controlling `while` loops, flags |
+
+
+Here are some example variable declarations using the common types:
+
+```
+int fingers = 10;
+
+double weightInKilos = 100.5;
+
+// Use single quotes to declare a char value
+char pound = '#';
+
+// true and false are Java keywords
+boolean active = true;
+```
+
+Everything that isn't one of the eight primitive types is an **object** in Java. Object types always start with a capital letter. Notably, `String` is an object type:
+
+```
+String message = "Strings are objects, not a primitive type!"
+```
+
+Notice that Java `String` values are always enclosed in **double quotes** and a single `char` value is enclosed in **single quotes**. Python did not have the concept of a 
+dedicated type for single characters, and all string values (the `str` type) could be enclosed in **either double or single quotes**.
+
+## Arithmetic
