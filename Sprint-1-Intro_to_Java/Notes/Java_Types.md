@@ -42,9 +42,16 @@ String message = "Strings are objects, not a primitive type!"
 Notice that Java `String` values are always enclosed in **double quotes** and a single `char` value is enclosed in **single quotes**. Python did not have the concept of a 
 dedicated type for single characters, and all string values (the `str` type) could be enclosed in **either double or single quotes**.
 
-## Integer Division
+## Arithmetic Operators
 
-If you divide two `int` types, Java performs **integer division**. This is equivalent to performing exact division and **rounding down**:
+Most of the arithmetic operators work the same as their Python counterparts:
+
+- `+`
+- `-`
+- `*`
+- `%` for the modulus operator
+
+The one exception is division. If you divide two `int` values, Java performs **integer division**. This is equivalent to performing exact division and **rounding down**:
 
 ```
 int x = 5 / 3;  // result is 1
