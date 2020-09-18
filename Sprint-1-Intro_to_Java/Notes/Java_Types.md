@@ -7,7 +7,7 @@ which has an underlying representation in the computer's memory.
 
 
 
-| Type    | Description           | Range |                               | Typical Use               |
+| Type    | Description           | Range                                | Typical Use               |
 | ------- | --------------------- | ------------------------------------- | ------------------|
 | `int`   | 32-bit signed integer | -2<sup>31</sup> to 2<sup>31</sup> - 1 | Primary type for integer data |
 | `short` | 16-bit signed integer | -32768 to 32767                       | Rarely used unless you need to minimize memory usage |
