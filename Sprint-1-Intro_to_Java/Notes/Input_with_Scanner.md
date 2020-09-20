@@ -1,2 +1,0 @@
-# Reading Input with `Scanner`
-
