@@ -54,7 +54,7 @@ Tips:
 
 - Use a `Scanner` and the `nextDouble` method to read from the console.
 
-- To print to two decimal places, use `System.out.printf("%.2d", dogecoins)`, where `dogecoins` is the variable that holds the number of dogecoins you want to print.
+- To print to two decimal places, use `System.out.printf("%.2f", dogecoins)`, where `dogecoins` is the variable that holds the number of dogecoins you want to print.
 
 - Use a `final double` to store the conversion factor:
 
