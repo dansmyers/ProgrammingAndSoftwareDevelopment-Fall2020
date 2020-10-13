@@ -38,7 +38,7 @@ Tips:
 
 - The first line has `height - 1` spaces and 2 blocks. The second line has `height - 2` spaces and 3 blocks.
 
-- Use a `Scanner` with the `readInt()` method to read the height of the staircase. You can assume the user inputs a valid number.
+- Use a `Scanner` with the `nextInt()` method to read the height of the staircase. You can assume the user inputs a valid number.
 
 
 
