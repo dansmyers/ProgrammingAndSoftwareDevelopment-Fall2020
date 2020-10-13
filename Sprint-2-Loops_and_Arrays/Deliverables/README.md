@@ -101,7 +101,7 @@ public class SubtractionGame {
             System.out.println("It's your turn, Player " + player + ".";
             System.out.println("Take 1, 2, or 3 stones from the pile.");
             
-            // Use readInt() to get the player's move
+            // Use nextInt() to get the player's move
             
             // Reduce the number of stones
             
