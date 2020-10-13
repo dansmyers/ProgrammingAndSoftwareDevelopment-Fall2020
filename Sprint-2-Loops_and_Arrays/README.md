@@ -1,4 +1,4 @@
-# Sprint 1 &ndash; Intro to Java
+# Sprint 2 &ndash; Loops and Arrays
 
 ## Starts Wednesday, 9/30
 ## Deliverables and quiz are due on Wednesday, 10/14
