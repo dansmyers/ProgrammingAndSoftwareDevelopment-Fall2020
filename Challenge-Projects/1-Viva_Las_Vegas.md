@@ -2,7 +2,8 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Viva_Las_Vegas_1964_Poster.jpg" width="30%" />
 
-*A fortune won and lost on every deal  
+*Oh, there's blackjack, poker, and the roulette wheel  
+  A fortune won and lost on every deal  
   All you need's a strong heart and a nerve of steel*
 
 ## Due December 11 (one week before the end of classes)
