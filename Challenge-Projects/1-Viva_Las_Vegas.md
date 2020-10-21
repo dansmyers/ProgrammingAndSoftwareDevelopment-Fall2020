@@ -4,7 +4,8 @@
 
 *Oh, there's blackjack, poker, and the roulette wheel  
   A fortune won and lost on every deal  
-  All you need's a strong heart and a nerve of steel*
+  All you need's a strong heart and a nerve of steel  
+  Viva Las Vegas*
 
 ## Due December 11 (one week before the end of classes)
 
