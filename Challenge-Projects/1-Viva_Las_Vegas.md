@@ -23,7 +23,7 @@ The playRedQueen method prompts the user to pick a number 1-3, representing one 
 
 ### Roulette
 
-Played on a small wheel with number 0-12. There are four possible bets:
+Played on a small wheel with numbers 0-12. There are four possible bets:
 
 1. Even
 2. Odd
@@ -45,7 +45,6 @@ Hazard is an old dice game that is the predecessor of craps.
 In our version, the player rolls two dice and bets on one of two outcomes:
 
 1. A roll of 7 or 11 will appear first.
-
 2. A roll of 2, 3, or 12 will appear first.
 
 If the roll is any number other than 7, 11, 2, 3, or 12, the game uses a loop to generate more rolls.
@@ -53,17 +52,13 @@ If the roll is any number other than 7, 11, 2, 3, or 12, the game uses a loop to
 
 ### Tips
 
-Start early! Don't wait until the last minute. Let me know if you have questions or are unclear on what a game is asking you to do.
+- Start early! Don't wait until the last minute. Let me know if you have questions or are unclear on what a game is asking you to do.
 
-Read the descriptions and the comments carefully. Use the comments as a guide: fill in each step of the program below the comments decribing that step.
+- Read the descriptions and the comments carefully. Use the comments as a guide: fill in each step of the program below the comments decribing that step.
 
-Look at your lab problems and examples from class. All of these games are combinations of things we've done before.
+- You must use the Random object named rng to generate your random vaues. Don't use Math.random() or your programs' output won't match what the tests expect.
 
-You must use the Random object named rng to generate your random vaues. Don't use Math.random() or your programs' output won't match what the tests expect.
-
-Add Javadoc-style headers to the methods that don't have them.
-
-Look at the tests to see the required outputs. The tests have been adjusted to accept some flexibility in output, so you probably won't have issues with things like punctuation, but try to stay as close as possible to the expected output format.
+- Write headers for the methods that don't have them.
 
 
 
@@ -71,7 +66,7 @@ Look at the tests to see the required outputs. The tests have been adjusted to a
 
 ```
 /**
- * Casino Royale
+ * Viva Las Vegas
  * 
  * @author CMS 121
  */
@@ -258,8 +253,8 @@ public class Casino {
         
         // Add more cases to play the other games
         
-        else if (choice > 5) {
-            System.out.println("Please choose a game 1-4.");
+        else if (choice > 4) {
+            System.out.println("That's not a game we play here, Mr. Presley.");
         }
         
         System.out.println("\nThank you for playing.");   
