@@ -15,15 +15,26 @@ In this project, you'll implement a full-fledged text-based casino program that 
 
 This project will tie together all of the Java features that we've used in the first part of the class, including variables, input, random numbers, conditional statements, methods, and loops. An additional challenge of this project is understanding and modifying a moderately complex pre-written program.
 
+## Grading and Submission
+
+Upload your completed `.java` file to the assignment posted on Canvas.
+
+I'll play each game and verify that they word as they should. If all of your games have the correct behavior and produce reasonable output messages, you'll get full credit.
+
+Completing this project will earn **one point towards your final letter grade**. This is the equivalent of raising your final grade in the course by one part of a letter, e.g.
+from B to B+.
+
 ## Games
 
-Your program will support five games.
+Your program will support the five games described below.
+
+Note: you only need to play **one game** each time the program runs. You'll need to add some code to `main` to call each game's method, but you **don't** need to include a loop in `main` to play multiple games.
 
 ### Red Queen
 
 A version of the classic "Three Card Monty" hustle. There are three cards: a red queen and two black jacks. The player picks one card and wins if it's the queen. I've implemented this game for you to illustrate the flow of the casino program.
 
-The playRedQueen method prompts the user to pick a number 1-3, representing one of the three face-down cards. It then generates a random number 1-3. The player wins if the chosen number matches the random number and loses otherwise.
+The `playRedQueen` method prompts the user to pick a number 1-3, representing one of the three face-down cards. It then generates a random number 1-3. The player wins if the chosen number matches the random number and loses otherwise.
 
 ### Roulette
 
@@ -34,7 +45,7 @@ Played on a small wheel with numbers 0-12. There are four possible bets:
 3. Number in 1-6. including both
 4. Number in 7-12 including both
 
-Your method should read the number of the user's bet, then generate a random spin in [0, 12]. If the outcome of the spin matches the player's bet, the player wins. All bets lose on a spin of zero.
+Your method should read the number of the user's bet, then generate a random spin in [0, 12]. If the outcome of the spin matches the player's bet, the player wins. All bets lose on a spin of zero. Print the value of the spin and an appropriate message.
 
 ### Slots
 
@@ -44,7 +55,7 @@ Slots uses a `while` loop to let the player keep spinning as long as he or she w
 
 ### Sic Bo
 
-Sic bo ("dice pair") is a dice game of Chinese origin, now available in many American casinos that cater to Asian gamers. The game is similar to craps: players roll three dice and bet on the outcome.
+Sic bo ("precious dice") is a dice game of Chinese origin, now available in many American casinos that cater to Asian gamers. The game is similar to craps: players roll three dice and bet on the outcome.
 
 There are a wide variety of possible bets, but the two most common wagers in sic bo are "big" and "small".
 
@@ -146,8 +157,7 @@ public class Casino {
         // Use the random number generator to draw a number in [1, 3]
         int winningCard = rng.nextInt(3) + 1;
         
-        // Check the winning condition
-        // Return true or false based on the outcome
+        // Check the winning condition and print a result
         if (playerCard == winningCard) {
             System.out.println("That's the Red Queen!");
         } else {
@@ -174,7 +184,7 @@ public class Casino {
 
         // If the spin is zero, lose immediately
         
-        // Else if the spin is nonzero, test for winning combinations
+        // Test for winning combinations
         
         // Else, the player must have lost
         
@@ -287,10 +297,12 @@ public class Casino {
         int choice = readInt();
         
         // Select the game based on the choice
+        //
+        // switch is an alternative to a block of if-else statements
         switch(choice) {
             case 1:
                 playRedQueen();
-                break;
+                break;  // Required at the end of each case.
                 
             // Add more cases to play the other games
 
