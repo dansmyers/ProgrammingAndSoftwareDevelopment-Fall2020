@@ -40,6 +40,21 @@ Generate three numbers in [0, 9], inclusive. The player wins if any two of the t
 
 Slots uses a `while` loop to let the player keep spinning as long as he or she wants. At the end of the loop, ask if the player wants to continue and stop the loop when the player answers no.
 
+### Sic Bo
+
+Sic bo ("dice pair") is a dice game of Chinese origin, now available in many American casinos that cater to Asian gamers. The game is similar to craps: players roll three dice and bet on the outcome.
+
+There are a wide variety of possible bets, but the two most common wagers in sic bo are "big" and "small".
+
+- The big bet wins if the sum of the three dice is 11 to 17 (including both), but not three-of-a-kind
+- The small bet wins if the sum of the three dice is 4 to 10 (including both), but not three-of-a-kind
+
+Tip: both bets lose if the result is a triple, so you can test for that first, then move on to the test the sum if the result is not a triple. To test for a triple, you need the logical and of three comparisons
+
+```
+die1 == die2 && die2 == die3 && die1 == die3
+```
+
 ### Hazard
 
 Hazard is an old dice game that is the predecessor of craps.
@@ -191,6 +206,28 @@ public class Casino {
 
         }
         
+    }
+    
+    
+    public static void playSicBo() {
+        System.out.println("\nWelcome to Sic Bo.");
+        System.out.println("1. Big");
+        System.out.println("2. Little");
+        System.out.println("What is your bet?");
+    
+        // Read the player's bet
+        int bet = readInt();
+        
+        // Simulate three rolls
+        
+        // Check if the three dice are a triple
+        // If so, print a losing message and return
+        
+        // If the sum is big and the player's bet is 1, print winner
+        
+        // Else if the sum is little and the player's bet is 2, print winner
+        
+        // Else, print losing message
     }
     
     
