@@ -103,7 +103,6 @@ public class Casino {
     
     /**
      * Global Scanner -- use input for all Scanner operations
-     * The Mimir test code works best with a static Scanner
      */
     public static Scanner input = new Scanner(System.in);
     
