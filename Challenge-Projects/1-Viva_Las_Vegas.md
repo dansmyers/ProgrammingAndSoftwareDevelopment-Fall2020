@@ -13,9 +13,11 @@
 
 In this project, you'll implement a full-fledged text-based casino program that allows the user to select from and play different games of chance.
 
-This project will tie together all of the Java features that we've used in the first part of the class, including variables, input, random numbers, conditional statements, methods, and loops.
+This project will tie together all of the Java features that we've used in the first part of the class, including variables, input, random numbers, conditional statements, methods, and loops. An additional challenge of this project is understanding and modifying a moderately complex pre-written program.
 
-Your program will support four games.
+## Games
+
+Your program will support five games.
 
 ### Red Queen
 
@@ -286,14 +288,16 @@ public class Casino {
         int choice = readInt();
         
         // Select the game based on the choice
-        if (choice == 1) {
-            playRedQueen();
-        } 
+        switch(choice) {
+            case 1:
+                playRedQueen();
+                break;
+                
+            // Add more cases to play the other games
+
         
-        // Add more cases to play the other games
-        
-        else if (choice > 4) {
-            System.out.println("That's not a game we play here, Mr. Presley.");
+            default:
+                System.out.println("That's not a game we play here, Mr. Presley.");
         }
         
         System.out.println("\nThank you for playing.");   
