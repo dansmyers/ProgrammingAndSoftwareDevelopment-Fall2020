@@ -7,12 +7,11 @@
 This sprint will review the use of methods in Java, including passing arguments and returning values, and introduce **recursion**, one of the most
 important concepts in computer science that you'll see over and over again in your future classes.
 
-As in the previous sprint, you'll have four things to complete by the due date:
+As in the previous sprint, you'll have three things to complete by the due date:
 
 1. The deliverables described in this project.
 2. An individual quiz.
-3. A short individual reflective write-up.
-4. Reading from the ZyBook.
+3. Reading from the ZyBook.
 
 ## Deliverables and Quiz
 
