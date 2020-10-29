@@ -7,8 +7,8 @@
 public class Recursion {
 
 	/** 
-   * Return the length of the Collatz sequence with the given start value
-   */
+         * Return the length of the Collatz sequence with the given start value
+         */
 	public static int collatz(int start) {
 
 		
@@ -16,8 +16,8 @@ public class Recursion {
 	
 	
 	/** 
-   * Calculate the nth Fibonacci number, where n can be positive or negative
-   */
+         * Calculate the nth Fibonacci number, where n can be positive or negative
+         */
 	public static int fib(int n) {
 
 		
@@ -25,8 +25,8 @@ public class Recursion {
 	
 	
 	/**
-   * Calculate McCarthy's 91 function
-   */
+         * Calculate McCarthy's 91 function
+         */
 	public static int mccarthy(int n) {
 
 		
