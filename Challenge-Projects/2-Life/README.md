@@ -1,6 +1,6 @@
 # Conway's Game of Life
 
-## Due Sunday, February 16, at 11:59 PM
+## Due December 11 (one week before the end of classes)
 
 ## Description
 
@@ -20,6 +20,58 @@ The universe of Life is an infinite two-dimensional grid of cells. At each momen
 - A dead cell with exactly three live neighbors comes to life
 
 All births and deaths happen **simultaneously**.
+
+## Example
+
+Consider the following 3x3 grid. Assume that cells marked 0 are dead and cells marked 1 are alive.
+
+```
+0  0  0
+
+1  1  1
+
+0  0  0
+```
+
+We'd like to apply the rules of Life to update this grid to the next state.
+
+The first phase is to count the living neighbors of each cell. Neighbor counting is done by considering all eight surrounding positions. Any neighbors that would fall off of the
+grid are automatically treated as dead.
+
+- The cell at position (0, 0) (the upper-left position) has two living neighbors, one directly below and one to its lower right.
+
+- The cell at position (0, 1) (upper-middle position) has three living neighbors, all in the row below.
+
+- The cell at position (0, 2) (upper-right position) has two living neighbors, one directly below and one to its lower-left.
+
+Updates to the other cells are similar. If you want to represent the number of living neighbors in a grid, it would look like the following:
+
+```
+2  3  2
+
+1  2  1
+
+2  3  2
+```
+
+The next phase applies the rules of Life to determine which cells live and die in the next generation. **Here's an important point: neighbor counting for every cell must be complete *before* deciding which cells live and die in the next generation**.
+
+By the rules,
+
+- The upper-left cell remains dead, because it has exactly two neighbors.
+
+- The upper-middle cell comes to life in the next generation, because it is currently dead and has exactly three neighbors.
+
+- The upper-right cell remains dead, because it has exactly two neighbors.
+
+- The center-left cell dies, because it is currently alive and has fewer than two living neighbors.
+
+- The center-middle cell survives, because it is currently alive and has two living neighbors.
+
+- And so forth.
+
+
+
 
 ## Code
 
