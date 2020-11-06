@@ -15,8 +15,11 @@ The Game of Life is not a competition; rather, it’s more of a simulation of an
 The universe of Life is an infinite two-dimensional grid of cells. At each moment in time, a cell is either alive or dead. Each cell has eight neighbors: the cells to its left, right, top, bottom, and to its four corners. At each step in time, cells change state from alive to dead or vice versa based on the following rules:
 
 - A living cell that has fewer than two living neighbors dies from isolation
+
 - A living cell that has two or three living neighbors remains alive into the next iteration
+
 - A living cell with more than three living neighbors dies from overcrowding
+
 - A dead cell with exactly three live neighbors comes to life
 
 All births and deaths happen **simultaneously**.
@@ -38,7 +41,8 @@ We'd like to apply the rules of Life to update this grid to the next state.
 The first phase is to count the living neighbors of each cell. Neighbor counting is done by considering all eight surrounding positions. Any neighbors that would fall off of the
 grid are automatically treated as dead.
 
-- The cell at position (0, 0) (the upper-left position) has two living neighbors, one directly below and one to its lower right.
+- The cell at position (0, 0) (the upper-left position) has two living neighbors, one directly below and one to its lower right. All of its other neighbors, including the ones
+that lie outside the grid, are dead.
 
 - The cell at position (0, 1) (upper-middle position) has three living neighbors, all in the row below.
 
@@ -70,8 +74,20 @@ By the rules,
 
 - And so forth.
 
+Take a moment to verify the reasoning for each cell in the grid. When you're done, you should be certain that the state of the grid in the next generation is:
 
+```
+0  1  0
 
+0  1  0
+
+0  1  0
+```
+
+Repeating the steps will show that this grid will return to the original horizontal line configuation in its next generation. This simple pattern, alternating between horizontal
+and vertical, is called a **blinker**. There are a number of other standard Life patterns, which often emerge spontaneously from more complex configurations.
+
+<img src="https://evolvingweb.ca/sites/default/files/inline-images/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f3456565a547654717a5252304255774e49482f67697068792e676966.gif" width="50%" />
 
 ## Code
 
