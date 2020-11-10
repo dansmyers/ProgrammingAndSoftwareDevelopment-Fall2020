@@ -4,9 +4,7 @@
 
 This lab will introduce the amazing world of **graphical output**. We'll be able to write programs that **make things appear on the screen**. In a few more days, we'll learn about taking input from the keyboard and using it to control our graphical creations.
 
-To implement this, we're going to introduce two more tools. The first is a library called `StdDraw.java`, which includes a bunch of basic drawing methods. The second is a different editor called *BlueJ*. BlueJ runs on your local computer, so it can make graphical windows appear, which we can't really do with Mimir.
-
-`StdDraw.java` was originally written by Robert Sedgwick and Kevin Wayne for their book *Introduction to Programming in Java* and is used with permission.
+To implement this, we're going to introduce a library called `StdDraw.java`, which includes a bunch of basic drawing methods. `StdDraw.java` was originally written by Robert Sedgwick and Kevin Wayne for their book *Introduction to Programming in Java* and is used with permission.
 
 ![](http://www.hrwiki.org/w/images/a/a6/Videlectrix_developers.png)
 
