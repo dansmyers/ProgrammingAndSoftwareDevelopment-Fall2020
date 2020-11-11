@@ -1,6 +1,6 @@
 # Secret Collect.
 
-<img src="http://www.hrwiki.org/w/images/1/18/secretcollectbox.PNG" width="50%" />
+<img src="http://www.hrwiki.org/w/images/1/18/secretcollectbox.PNG" width="30%" />
 
 ## Description
 
