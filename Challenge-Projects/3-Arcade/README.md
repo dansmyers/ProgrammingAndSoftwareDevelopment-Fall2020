@@ -87,7 +87,7 @@ The project repo comes with five classes:
 
 The classes have a few methods and game elements in place to help you get started, but they're far from complete. You'll probably need to add methods and parameters to each class as you build out the game features.
 
-## Gameplay
+### Gameplay
 
 The basic loop is similar to the other games we've written. Each class has a `draw` method and Pac-Man and the Ghosts have `update` methods that implement their movement logic. The game ends when Pac-Man eats all of the pellets or when he collides with a Ghost.
 
@@ -103,7 +103,7 @@ Handling the walls might be the trickiest part. You need to check for wall colli
 
 - Whichever strategy you pick, use the same one to handle Ghost movement.
 
-## Questions You May Have
+### Questions You May Have
 
 **How many ghosts?** Start with just one, then add more as you see fit. Four may make the game feel too crowded, so you can have fewer if it seems better.
 
