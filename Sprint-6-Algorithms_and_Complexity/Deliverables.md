@@ -12,7 +12,9 @@ Review the formal definition of Big-O notation. State the order of growth for th
 
 - *f*(*n*) = 3*n*<sup>.01</sup> + 2*n*
 
-- *f*(*n*) = lg *n*  + sin *n* (tip: think about what happens to the log function and the sin function as *n* gets large)
+- *f*(*n*) = lg *n*  + sin *n* 
+
+Tip: think about what happens to the log function and the sin function as *n* gets large
 
 ## Loops
 
