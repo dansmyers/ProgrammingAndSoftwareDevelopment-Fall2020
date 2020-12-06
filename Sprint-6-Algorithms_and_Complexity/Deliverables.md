@@ -63,7 +63,7 @@ is O(*n* lg *n*).
 
 Tip: One of the basic properties of logarithms is that 
 
-lg *a**b* = lg *a* + lg *b*
+lg *a* *b* = lg *a* + lg *b*
 
 
 ## Egg Problem
