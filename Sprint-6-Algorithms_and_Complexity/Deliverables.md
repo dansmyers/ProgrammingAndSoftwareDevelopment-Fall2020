@@ -70,13 +70,13 @@ lg (*a* *b*) = lg *a* + lg *b*
 
 ## Egg Problem
 
-You have some eggs and a 100-story building. These eggs (laid, no doubt, by a genetically-engineered monster terror chicken) have a very strong shell. So strong, in fact, that if they are dropped from any floor lower than an unknown breaking floor N they will be completely unharmed.
-Your challenge: develop an algorithm that finds the breaking floor N in an efficient number of drops without breaking too many eggs.
+You have some eggs and a 100-story building. These eggs (laid, no doubt, by a genetically-engineered monster terror chicken) have a very strong shell. So strong, in fact, that if they are dropped from any floor lower than an unknown breaking floor *N* they will be completely unharmed.
+Your challenge: develop an algorithm that finds the breaking floor *N* in an efficient number of drops without breaking too many eggs.
 
-Consider a linear search approach to finding the breaking floor. Begin at floor 1 and drop an egg. If it breaks, N = 1 and you’re done. If it doesn’t break, move up to floor 2 and drop it again. Repeat until the egg finally breaks. This algorithm has the advantage of using only one egg, but the number of drops required is linear in N.
+Consider a linear search approach to finding the breaking floor. Begin at floor 1 and drop an egg. If it breaks, *N* = 1 and you’re done. If it doesn’t break, move up to floor 2 and drop it again. Repeat until the egg finally breaks. This algorithm has the advantage of using only one egg, but the number of drops required is linear in *N*8.
 
 Fewer drops are possible if you use a binary search. Drop the first egg from floor 50. If it breaks, binary search the floors from 1 to 49. If it survives, binary search the floors from 51 to 100. This will require only seven drops in the worst case, but may break more eggs.
 
-Can you find an algorithm that is better than linear search and still uses only two eggs? How many worst-case drops does your method require as a function of N?
+Can you find an algorithm that is better than linear search and still uses only two eggs? How many worst-case drops does your method require?
 
 
