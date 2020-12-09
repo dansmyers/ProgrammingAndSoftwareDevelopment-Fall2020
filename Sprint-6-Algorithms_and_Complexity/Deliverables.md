@@ -51,7 +51,7 @@ Prove, using the formal definition of Big-O notation, that the *m*-degree polyno
 
 *f*(*n*) = *a*<sub>*m*</sub>*n*<sup>*m*</sup> + *a*<sub>*m - 1*</sub>*n*<sup>*m - 1*</sup> + *a*<sub>*m - 2*</sub>*n*<sup>*m - 2*</sup> + ... + *a*<sub>*2*</sub>*n*<sup>*2*</sup>+ *a*<sub>*1*</sub>*n*<sup>*1*</sup> + 1
 
-is O(*n*<sup>*m*</sup>). The *a* coefficients are constants that don't depend on *n* or *m*.
+is O(*n*<sup>*m*</sup>). The *a* coefficients are constants that don't depend on *n* or *m* and you an assume that they are all greater then or equal to zero.
 
 Tip: Get huge!
 
