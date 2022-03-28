@@ -253,7 +253,7 @@ Test your code by changing the `direction` parameter in the constructor.
 
 ## Control
 
-To allow the player to control the snake, we need to add code that checks for key presses and changes the `direction` appropriately. Add ode to check fro key presses to the beginning of the `update` method:
+To allow the player to control the snake, we need to add code that checks for key presses and changes the `direction` appropriately. Add code to check for key presses to the beginning of the `update` method:
 
 ```
 public void update(Square pellet) {
