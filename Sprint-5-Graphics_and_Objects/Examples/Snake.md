@@ -125,8 +125,9 @@ public class Square {
     
     //*** Reposition this square at a new random spot ***//
     public void newLocation() {
-        this.x = Math.random();
-        this.y = Math.random();
+    
+        // Set this.x and this.y to random values between 0 and 1.0
+
     }
     
 }
