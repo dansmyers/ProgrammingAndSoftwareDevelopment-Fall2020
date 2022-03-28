@@ -294,10 +294,23 @@ public void update(Square pellet) {
 
 At this point, you should be able to move the `Snake` around the screen.
 
-Getting longer is actually easy: **if the `Snake` eats the pellet, don't remove its tail segment**. Modify the end of the `update` method to check if the `Snake` collides with the `pellet`. This is also easy, because we can take advantage of the `collidesWith` method in `Square`.
+Getting longer is actually easy: **if the `Snake` eats the pellet, don't remove its tail segment**. Modify the end of the `update` method to check if the `Snake` collides with the `pellet`. This is also easy, because we can take advantage of the `collidesWith` method in `Square`. There are two cases:
+
+1. The head does hit the pellet. In this case, use the `pellet`'s `newLocation` method to move it to a new randomized location. You'll need to fill in code for that method.
+2. If the head doesn't hit the `pellet`, delete the last body segment. This is the common case.
 
 ```
-if (!head.collidesWith(pellet)) {
+// Check if the Snake's head collides with the pellet
+if (head.collidesWith(pellet)) {
+
+    // If it does, don't remove the tail square
+    
+    // Call pellet.newLocation() to move the pellet to a random position
+    // Fill in the newLocation method
+    
+} else {
+
+    // If the Snake doesn't collide (the normal case) remove the tail segment
     this.body.remove(this.body.size() - 1);
 }
 ```
